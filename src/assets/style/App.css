@@ -1,0 +1,24 @@
+.window {
+  display: flex;
+  flex-direction: column;
+}
+.window__btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.window__items{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.storage--item {
+  display: flex;
+  background: lightgray;
+  width: 100%;
+}
+
+.bookmark__item {
+  display: flex;
+}
